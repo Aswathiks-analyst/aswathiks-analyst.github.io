@@ -122,80 +122,6 @@
             color: var(--text-secondary);
             font-size: 0.9rem;
         }
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 25px;
-            margin-top: 30px;
-        }
-        .project-card {
-            background-color: var(--bg-card);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
-            transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-        }
-        .project-card:hover {
-            transform: translateY(-4px);
-            border-color: var(--pink-accent);
-            box-shadow: 0 10px 15px -3px rgba(219, 39, 119, 0.15);
-        }
-        .meta-tag {
-            background-color: #fff;
-            color: var(--pink-accent);
-            border: 1px solid var(--pink-light);
-            padding: 4px 12px;
-            border-radius: 30px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            display: inline-block;
-            margin-bottom: 15px;
-            width: fit-content;
-        }
-        .project-card h3 {
-            margin: 0 0 12px 0;
-            font-size: 1.35rem;
-            letter-spacing: -0.01em;
-            color: var(--text-primary);
-        }
-        .project-card p {
-            color: var(--text-secondary);
-            font-size: 0.95rem;
-            margin: 0 0 25px 0;
-        }
-        .tech-badges {
-            margin-bottom: 25px;
-        }
-        .badge {
-            background-color: #ffffff;
-            color: var(--text-primary);
-            padding: 4px 10px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            margin-right: 6px;
-            border: 1px solid var(--border-color);
-        }
-        .action-link {
-            display: inline-block;
-            text-align: center;
-            background-color: #ffffff;
-            color: var(--pink-accent);
-            border: 1px solid var(--pink-accent);
-            padding: 10px 20px;
-            border-radius: 6px;
-            text-decoration: none;
-            font-size: 0.9rem;
-            font-weight: 600;
-            transition: all 0.2s;
-        }
-        .action-link:hover {
-            background-color: var(--pink-accent);
-            color: #ffffff;
-        }
         footer {
             text-align: center;
             margin-top: 100px;
@@ -261,3 +187,40 @@
                 </ul>
             </div>
         </div>
+
+        <h2 class="section-title">Qualifications & Education</h2>
+        <div class="resume-section">
+            <!-- Master's Degree -->
+            <div class="resume-item">
+                <h3>Master of Science (MSc) in Business Analytics</h3>
+                <h4>Bournemouth University | 2023-2024</h4>
+                <ul>
+                    <li>Gained strong analytical and problem-solving capabilities through advanced coursework in data analysis, modeling, and business intelligence tools.</li>
+                    <li>Applied skills in Power BI, SQL, and Excel to real-world business case studies, including HR analytics, compensation modeling, and workforce planning.</li>
+                    <li>Developed a deep understanding of commercial strategy and performance evaluation using quantitative methods.</li>
+                </ul>
+            </div>
+            
+            <!-- Bachelor's Degree -->
+            <div class="resume-item" style="margin-top: 25px; padding-top: 25px; border-top: 1px dashed var(--border-color);">
+                <h3>Bachelor of Business Administration (BBA)</h3>
+                <h4>IIS Deemed to be University | 2019-2022</h4>
+                <ul>
+                    <li>Studied core areas of business management with a focus on Human Resource Management, Organizational Behavior, and Strategic Communication.</li>
+                    <li>Completed HR-related coursework and academic projects in compensation planning, employee relations, and training & development.</li>
+                    <li>Built foundational knowledge in project coordination, stakeholder engagement, and HR compliance.</li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Aswathi KS. All rights reserved.</p>
+            <p>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                <a href="mailto:youremail@example.com">Contact Email</a>
+            </p>
+        </footer>
+    </div>
+
+</body>
+</html>
